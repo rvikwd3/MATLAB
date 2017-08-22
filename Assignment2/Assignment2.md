@@ -34,8 +34,7 @@ Question 6
 Using any programming language you feel comfortable with, load an image and then
 perform a simple spatial 3x3 average of image pixels. In other words, replace the value of
 every pixel by the average of the values in its 3x3 neighborhood. If the pixel is located at
-(0,0), this means averaging the values of the pixels at the positions (-1,1), (0,1), (1,1), (-1,0),
-(0,0), (1,0), (-1,-1), (0,-1), and (1,-1). Be careful with pixels at the image boundaries. Repeat
-the process for a 10x10 neighbourhood and again for a 20x20 neighbourhood. Observe
-what happens to the image and give explanation for it. If you are using Matlab, investigate
-simple command lines to do this important operation.
+`(0,0)`, this means averaging the values of the pixels at the positions `(-1,1)`, `(0,1)`, `(1,1)`, `(-1,0)`,
+`(0,0)`, `(1,0)`, `(-1,-1)`, `(0,-1)`, and `(1,-1)`. Be careful with pixels at the image boundaries. Repeat
+the process for a `10x10` neighbourhood and again for a `20x20` neighbourhood. Observe
+what happens to the image and give explanation for it.
