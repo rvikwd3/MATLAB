@@ -6,15 +6,21 @@ Question 1
 -------------------------
 Add random noise to an image. Repeat noise addition N times for different values of N and add the resulting images.
 
+![Question1_Image](http://i.imgur.com/Trpkexk.jpg)
+
 Question 2
 -------------------------
 Rotate an image by 45 and 90 degrees. Use different interpolation methods.
+
+![Question2_Image](http://i.imgur.com/k9qLmcV.jpg)
 
 Question 3
 -------------------------
 For `spine.tif` enhance it using
 1. Log transformation
 2. Power-law transformation
+
+![Question3_Image](http://i.imgur.com/xBArOtV.jpg)
 
 Question 4
 -------------------------
@@ -24,10 +30,14 @@ parameter and return an array containing the histogram of the image. The histogr
 displayed using the built in plotting function. Use this new function to generate and display
 histograms for the following images.
 
+![Question4_Image](http://i.imgur.com/dwKQJVc.jpg)
+
 Question 5
 -------------------------
 Implement a histogram equalization function. Use it to enhance the above images. If using
 Matlab, compare your implementation with Matlab’s built-in function.
+
+![Question5_Image](http://i.imgur.com/rJA45Kz.jpg)
 
 Question 6
 -------------------------
@@ -38,3 +48,5 @@ every pixel by the average of the values in its 3x3 neighborhood. If the pixel i
 `(0,0)`, `(1,0)`, `(-1,-1)`, `(0,-1)`, and `(1,-1)`. Be careful with pixels at the image boundaries. Repeat
 the process for a `10x10` neighbourhood and again for a `20x20` neighbourhood. Observe
 what happens to the image and give explanation for it.
+
+![Question6_Image](http://i.imgur.com/EI16zdO.jpg)
